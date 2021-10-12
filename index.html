@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">    
+<title>Untitled Document</title>
+    <link rel="stylesheet" href="css/main.css">
+<!--lightbox-->
+    <link rel="stylesheet" href="css/lightbox.min.css">   
+<!--    counternumber-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+<!--    smooth scroll-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    <div class="outer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="header">
+                    <div class="logo">
+                        <img src="images/logo-mclaren.png" alt="" width="150px">
+                    </div>
+                    <div class="menu">
+                        <a href="#nd1">TRANG CHỦ</a>
+                        <a href="#nd2">GIỚI THIỆU</a>
+                        <a href="#nd3">CÔNG NGHỆ</a>
+                        <a href="#nd4">THÔNG SỐ KỸ THUẬT</a>
+                        <a href="#nd5">BỘ SƯU TẬP</a>
+                        <a href="#nd6">LIÊN HỆ</a>
+                    </div>
+                </div>
+                <div id="nd1">
+                    <div class="bentrai" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >
+                        <h4>THAM GIA HÀNH TRÌNH</h4>
+                        <span>KHÁM PHÁ</span>
+                        <h1>SỨC MẠNH</h1>
+                        <a href="#" class="nut1">Xem thêm</a>
+                    </div>
+                    <div class="benphai" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+                        
+                        <img src="images/arturaspider.png" alt="" class="hinhnd1">
+                    </div>
+                </div>
+                <div id="nd2">
+                    <div class="bentrai2" data-aos="fade-right">
+                        <img src="images/artura 2.png" alt="">
+                    </div>
+                    <div class="benphai2" data-aos="fade-left">
+                        <h1>AN ALL-NEW ERA</h1>
+                        <div class="gachtrai">
+                            <br>
+                            <hr width="80px" size="3px" color="#B12120">
+                        </div>
+                        <div class="chuphai" >   
+                            <p>Artura có cấu trúc mới siêu nhẹ làm từ sợi carbon. <br> Hệ thống truyền động Hybrid Hiệu suất cao.Kiểu <br>dáng khí động học được tối ưu cao nhất. Giúp định <br> hình một thiết kế tối giản, đẹp mắt.Được trang bị <br> hệ thống treo sau đến bộ visai E tiên tiến, mọi yếu tố <br> đều góp phần tạo nên trải nghiệm lái mãnh liệt <br> độc nhất vô nhị.</p>
+                            <a href="#" class="nut2">Xem thêm</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="nd3">
+                    <br><br><br>                   
+                    <span class="chumo">PREMIUM</span>
+                    <div class="hinhnd" data-aos="zoom-out">
+                        <img src="images/Drivous-section-3-img.png" alt="">
+                    </div>
+                </div>
+                <div id="nd4">
+                    <div class="bentrai">
+                        <p class="techspec">TECH SPECS</p>       
+                        <p class="thongso" data-aos="fade-right" data-aos-anchor-placement="top-bottom">THÔNG SỐ KỸ THUẬT</p>
+                        <div style="float: left;margin-right: 20px;margin-top: 10px">     <hr width="80px"     size="3px" color="#B12120">
+                        </div>
+                        <div class="bangthongso">
+                            <table width="400px">
+                                <tr class="dong">
+                                    <td>Engine displacement</td>
+                                    <td align="right">5204</td>
+                                </tr>
+                                
+                                <tr class="dong">
+                                    <td>Maximum power</td>
+                                    <td align="right">601.4 bhp @ 8250rpm</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>Maximum torque</td>
+                                    <td align="right">560Nm @ 6500 rpm</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>Turning radius</td>
+                                    <td align="right">5.9 m</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>No. of cylinders</td>
+                                    <td align="right">10</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>Drive type</td>
+                                    <td align="right">AWD</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>Turbo charger</td>
+                                    <td align="right">No</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>Super charger</td>
+                                    <td align="right">Yes</td>
+                                </tr>
+                                <tr class="dong">
+                                    <td>Fuel supply</td>
+                                    <td align="right">Direct injection</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="benphai">
+                        
+                        <img src="images/artura 3.png" alt="" class="duoixe">
+                    </div>
+                </div>
+                <div id="nd5">
+                    <div class="gallery">
+                    <div class="nuatrai">
+                        <div class="nuatren">
+                            <div class="nuatren-trai">
+                                <a class="example-image-link" href="images/noithat3.png" data-lightbox="example-2" data-title="Bảng điều khiển-Tableau"><img class="example-image" src="images/noithat3.png" alt=""/></a>
+                            </div>
+                            <div class="nuatren-phai">
+                                <div class="nuatren-phaitren">
+                                    <a class="example-image-link" href="images/McLaren-Artura-reveal-17.jpg" data-lightbox="example-2" data-title=""><img class="example-image" src="images/McLaren-Artura-reveal-17.jpg" alt=""/></a>
+                                </div>
+                                <div class="nuatren-phaiduoi">
+                                    <a class="example-image-link" href="images/McLaren-Artura-reveal-21.jpg" data-lightbox="example-2" data-title="Bảng đồng hồ trung tâm"><img class="example-image" src="images/McLaren-Artura-reveal-21.jpg" alt=""/></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nuaduoi">
+                            <a class="example-image-link" href="images/artura 7.png" data-lightbox="example-2" data-title=""><img class="example-image duoitrai" src="images/artura 7.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="nuaphai">
+                        <div class="trenphai">
+                           <a class="example-image-link" href="images/artura 4.png" data-lightbox="example-2" data-title=""><img class="example-image" src="images/artura 4.png" alt=""/></a>
+                        </div>
+                        <div class="nuaduoi">
+                            <div class="nuaduoi-trai">
+                                <div class="nuaduoi-traitren">
+                                    <a class="example-image-link" href="images/noithat2.png" data-lightbox="example-2" data-title="Nội thất"><img class="example-image" src="images/noithat2.png" alt=""/></a>
+                                </div>
+                                <div class="nuaduoi-traiduoi">
+                                    <a class="example-image-link" href="images/noithat1.png" data-lightbox="example-2" data-title="Nội thất"><img class="example-image" src="images/noithat1.png" alt=""/></a>
+                                </div>
+                            </div>
+                            <div class="nuaduoi-phai">
+                                <a class="example-image-link" href="images/artura 6.png" data-lightbox="example-2" data-title="Cụm đèn chiếu sáng"><img class="example-image" src="images/artura 6.png" alt=""/></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>        
+                </div>
+                <div id="nd6">
+                    <div class="canhngang">
+                        <div class="chiso counter" data-start="0" data-end="330" data-down="false" data-duration="1000" data-delay="0">
+                            <center>
+                                <h1 class="number" style="color: #B12120;font-size: 64px;">0</h1>
+                                <h1 style="opacity:0.15; font-size: 64px;margin-top: -100px">kmph</h1>     
+                                <p style="letter-spacing: 3px;font-size: 14px">TOP SPEED</p>                            
+                            </center>                       
+                        </div>
+                        <div class="chiso counter" data-start="0" data-end="720" data-down="false" data-duration="1000" data-delay="0">
+                            <center>
+                                <h1 class="number" style="color: #B12120;font-size: 64px;">0</h1>
+                                <h1 style="opacity:0.15; font-size: 64px;margin-top: -100px">Nm</h1>     
+                                <p style="letter-spacing: 3px;font-size: 14px">TORQUE</p> 
+                            </center>
+                        </div>
+                        <div class="chiso counter" data-start="0" data-end="3" data-down="false" data-duration="1000" data-delay="0">
+                            <center>
+                                <h1 class="number" style="color: #B12120;font-size: 64px;">3</h1>
+                                <h1 style="opacity:0.15; font-size: 64px;margin-top: -100px">0-100</h1>     
+                                <p style="letter-spacing: 3px;font-size: 14px">FULL FORCE</p>                            
+                            </center>
+                        </div>
+                        <div class="chiso counter" data-start="0" data-end="680" data-down="false" data-duration="1000" data-delay="0">
+                            <center>
+                                <h1 class="number" style="color: #B12120;font-size: 64px;">680</h1>
+                                <h1 style="opacity:0.15; font-size: 64px;margin-top: -100px">PS</h1>     
+                                <p style="letter-spacing: 3px;font-size: 14px">POWER</p> 
+                            </center>
+                        </div>
+                      </div>                 
+                    <div class="lienhe">
+                        <center>
+                            <h3 style="font-weight: 300;letter-spacing: 5px">ĐĂNG KÝ</h3>
+                            <h1 style="font-weight: 400;letter-spacing: 8px; line-height: 28px">TRẢI NGHIỆM</h1>
+                            <table width="800px">
+                                <tr>
+                                    <td>Họ và tên</td>
+                                    <td>
+                                        <input type="text" placeholder="Nhập họ và tên đệm">
+                                        <input type="text" placeholder="Nhập tên bạn...">      
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td> 
+                                         <input type="email" style="width: 424px">   
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Số điện thoại</td>
+                                    <td>
+                                        <input type="text" style="width: 424px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lời nhắn</td>
+                                    <td>
+                                        <textarea name="" id="" cols="55" rows="5"></textarea>
+                                    </td>
+                                </tr>
+                                <a href="#" class="nut3">Đăng ký</a>
+                            </table>
+                        </center>
+                        
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+                <div id="footer">
+                    
+                    <div class="lhe">
+                        <ul>
+                            <li><b>McLaren Việt Nam</b></li>
+                            <li><a href="#">Hệ thống Showroom</a></li>
+                            <li><a href="#">Dịch vụ khách hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="brand">
+                        <center>
+                        <a href="#nd1"><img src="images/logo-mclaren.png" alt="" width="250px"></a>
+                        </center>
+                    </div>
+                    <div class="social">
+                        <h4>Kết nối với chúng tôi</h4>           
+                        <ul>                            
+                            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <center>
+                    <hr width="100%" color="#b12120" size="2px"><br>
+                       <p> © 2021 McLaren VN. All rights reserved</p>
+                        <br>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--    light box-->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+<!--        counter number-->
+         <script  src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+<!--    back to top-->
+        <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
